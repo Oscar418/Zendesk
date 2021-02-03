@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-zendeskDemo/Pods-zendeskDemo-artifacts.sh
+${PODS_ROOT}/ZendeskCommonUISDK/CommonUISDK.xcframework
+${PODS_ROOT}/ZendeskCoreSDK/ZendeskCoreSDK.xcframework
+${PODS_ROOT}/ZendeskMessagingAPISDK/MessagingAPI.xcframework
+${PODS_ROOT}/ZendeskMessagingSDK/MessagingSDK.xcframework
+${PODS_ROOT}/ZendeskSDKConfigurationsSDK/SDKConfigurations.xcframework
+${PODS_ROOT}/ZendeskSupportProvidersSDK/SupportProvidersSDK.xcframework
+${PODS_ROOT}/ZendeskSupportSDK/SupportSDK.xcframework

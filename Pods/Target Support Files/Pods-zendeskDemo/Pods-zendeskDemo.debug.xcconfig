@@ -1,0 +1,10 @@
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ZendeskCommonUISDK" "${PODS_ROOT}/ZendeskCommonUISDK/CommonUISDK.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskCommonUISDK/CommonUISDK.xcframework/ios-i386_x86_64-simulator" "${PODS_ROOT}/ZendeskCoreSDK" "${PODS_ROOT}/ZendeskCoreSDK/ZendeskCoreSDK.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskCoreSDK/ZendeskCoreSDK.xcframework/ios-i386_x86_64-simulator" "${PODS_ROOT}/ZendeskMessagingAPISDK" "${PODS_ROOT}/ZendeskMessagingAPISDK/MessagingAPI.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskMessagingAPISDK/MessagingAPI.xcframework/ios-i386_x86_64-simulator" "${PODS_ROOT}/ZendeskMessagingSDK" "${PODS_ROOT}/ZendeskMessagingSDK/MessagingSDK.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskMessagingSDK/MessagingSDK.xcframework/ios-i386_x86_64-simulator" "${PODS_ROOT}/ZendeskSDKConfigurationsSDK" "${PODS_ROOT}/ZendeskSDKConfigurationsSDK/SDKConfigurations.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskSDKConfigurationsSDK/SDKConfigurations.xcframework/ios-i386_x86_64-simulator" "${PODS_ROOT}/ZendeskSupportProvidersSDK" "${PODS_ROOT}/ZendeskSupportProvidersSDK/SupportProvidersSDK.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskSupportProvidersSDK/SupportProvidersSDK.xcframework/ios-i386_x86_64-simulator" "${PODS_ROOT}/ZendeskSupportSDK" "${PODS_ROOT}/ZendeskSupportSDK/SupportSDK.xcframework/ios-arm64_armv7" "${PODS_ROOT}/ZendeskSupportSDK/SupportSDK.xcframework/ios-i386_x86_64-simulator"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CommonUISDK" -framework "MessagingAPI" -framework "MessagingSDK" -framework "SDKConfigurations" -framework "SupportProvidersSDK" -framework "SupportSDK" -framework "ZendeskCoreSDK"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
